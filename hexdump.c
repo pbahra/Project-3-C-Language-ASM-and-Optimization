@@ -17,7 +17,6 @@
 #include <assert.h>     
 
 #define BYTES_PER_LINE  (16)
-#define HEX_FIELD_WIDTH (3)
 
 /* 
  * Function prototypes
