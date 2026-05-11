@@ -34,4 +34,4 @@ The stack stays at 72 bytes same as -O1.
 Step 6,
 Conclusion:
 The biggest improvement is from -O0 to -O1 where function inlining, register allocation, and moving the __ctype_b_loc() call outside the loop made the most difference in my oponion.  
-I would say going from -O1 to -O3 added very little because the bottleneck is I/O not computation. For programs that do heavy math or data processing -O3 would show much bigger gains.
+I would say going from -O1 to -O3 added very little because the bottleneck is I/O not computation.\
